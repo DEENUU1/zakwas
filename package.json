@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@googlemaps/js-api-loader": "^1.16.6",
     "@nextui-org/react": "^2.4.1",
+    "@react-google-maps/api": "^2.19.3",
     "framer-motion": "^11.2.10",
+    "google-maps-react": "^2.0.6",
     "next": "14.2.3",
+    "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18"
   },

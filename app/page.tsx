@@ -1,6 +1,7 @@
 import Image from "next/image";
 import {Image as NextImage} from "@nextui-org/react";
 import React from "react";
+import MenuCard from "@/components/MenuCard";
 
 export default function Home() {
 
@@ -44,10 +45,27 @@ export default function Home() {
 			<div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-4 bg-black">
 				{images.map((src, index) => (
 					<div key={index}>
-						<NextImage isBlurred={true} isZoomed={true} className="h-auto max-w-full rounded-lg" src={src} alt={`Image ${index + 1}`}/>
+						<NextImage isBlurred={true} isZoomed={true} className="h-auto max-w-full rounded-lg" src={src}
+											 alt={`Image ${index + 1}`}/>
 					</div>
 				))}
 			</div>
+
+			<div className={"grid grid-cols-2 md:grid-cols-2 gap-4 justify-items-center mt-5 mb-5"}>
+				<MenuCard name={"Pizza"} ingredients={"Pomidor, ser, sos"} price={20.90}/>
+				<MenuCard name={"Pizza"} ingredients={"Pomidor, ser, sos"} price={20.90}/>
+				<MenuCard name={"Pizza"} ingredients={"Pomidor, ser, sos"} price={20.90}/>
+				<MenuCard name={"Pizza"} ingredients={"Pomidor, ser, sos"} price={20.90}/>
+			</div>
+
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2478.548400897059!2d18.937132712715382!3d51.59483960419378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471a5b4062d8c21b%3A0xcf2e84daa433ccb9!2sZAKWAS%20Zdu%C5%84ska%20Wola!5e0!3m2!1spl!2spl!4v1717205423044!5m2!1spl!2spl"
+				className="border:0 w-full" height={"500"} loading="lazy">
+			</iframe>
+			<p className="mt-8 mb-8 text-base leading-6 text-center text-gray-400">
+				© 2024 Zakwas, created by Kacper Włodarczyk.
+			</p>
+
 		</>
 	);
 }
