@@ -12,7 +12,7 @@ export default function Hero(){
 						src="/outside.jpg"
 						layout="fill"
 						objectFit="cover"
-						alt="bg"
+						alt="background image"
 						className={"blur-sm"}
 					/>
 				</div>
