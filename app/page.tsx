@@ -11,8 +11,6 @@ export const metadata: Metadata = {
   description: 'Pizza neapolitańska. Klasyka w nowej odsłonie.',
 }
 
-export default function Page() {}
-
 export default function Home() {
 
 	return (
