@@ -3,17 +3,28 @@ import React from "react";
 
 export default function MenuCard({name, ingredients, price}: {name: string, ingredients: string, price: number}) {
 	return (
-		<>
-			<div className={"flex items-center gap-4"}>
-				<NextImage isBlurred={true} className={"rounded-2xl"} src={"/2.jpg"} alt={"menu1"} height={150} width={200}/>
-				<div className={""}>
-					<strong className={"text-2xl mb-2"}>{name}</strong>
-					<i className={"mb-2 block overflow-hidden overflow-ellipsis"} style={{maxWidth: "250px"}}>
+		<div
+			className="flex flex-col sm:flex-row items-center sm:items-start gap-4 p-4 rounded-2xl shadow-md">
+			<NextImage
+				isBlurred={true}
+				radius={"lg"}
+				loading={"lazy"}
+				src="/3.jpg"
+				alt="menu1"
+				height={150}
+				width={200}
+			/>
+			<div className="flex flex-col justify-between flex-2 text-center sm:text-left">
+				<div>
+					<strong className="text-2xl mb-2 block">{name}</strong>
+					<p className="mb-2 block overflow-hidden overflow-ellipsis" style={{maxHeight: "3em", width: "250px"}}>
 						{ingredients}
-					</i>
+					</p>
 				</div>
-				<i className={"text-2xl"}>{price} PLN</i>
+				<i className="text-2xl font-bold drop-shadow-lg">{price} PLN</i>
 			</div>
-		</>
+		</div>
+
+
 	)
 }

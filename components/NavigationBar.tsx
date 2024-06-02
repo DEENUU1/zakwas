@@ -1,5 +1,6 @@
 import React from "react";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
+import Image from "next/image";
 
 export default function NavigationBar() {
   return (
@@ -22,22 +23,27 @@ export default function NavigationBar() {
       }}
     >
       <NavbarBrand>
-        <p className="font-bold text-inherit">Zakwas</p>
+        <Image src={"/logo.png"} alt={"logo"} height={50} width={50} />
+        <p className="font-bold text-inherit">
+          <Link href={"#home"}>
+            Zakwas
+          </Link>
+        </p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="#">
-            Home
-          </Link>
-        </NavbarItem>
-        <NavbarItem isActive>
-          <Link href="#" aria-current="page">
-            Contact
+          <Link color="foreground" href="#menu">
+            Menu
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
-            Menu
+          <Link color="foreground" href="#testimonials">
+            Opinie
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="#galery">
+            Galeria
           </Link>
         </NavbarItem>
       </NavbarContent>
