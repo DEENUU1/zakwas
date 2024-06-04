@@ -1,6 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## Getting Started
+
+
+<br />
+<div align="center">
+  <h3 align="center">Zakwas</h3>
+  <strong align="center">
+    Website for a local Neapolitan pizzeria. It's available <a href="https://zakwas.vercel.app/#home">online</a>
+    <br />
+    <br />
+    <a href="https://github.com/DEENUU1/zakwas/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/DEENUU1/zakwas/issues">Request Feature</a>
+  </strong>
+</div>
+
+<img src="assets/Screenshot%202024-06-04%20at%2023-57-46%20Zakwas.png" alt="page_view"/>
+
+## Technologies:
+- Typescript
+- React / Next.JS
+- TailwindCSS
+- NextUI
+- Aceternity
+- Vercel
+
+## Installation
 
 First, run the development server:
 
@@ -14,23 +44,46 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Authors
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [@DEENUU1](https://www.github.com/DEENUU1)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<!-- LICENSE -->
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
+See `LICENSE.txt` for more information.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-## Deploy on Vercel
+[contributors-shield]: https://img.shields.io/github/contributors/DEENUU1/zakwas.svg?style=for-the-badge
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[contributors-url]: https://github.com/DEENUU1/zakwas/graphs/contributors
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[forks-shield]: https://img.shields.io/github/forks/DEENUU1/zakwas.svg?style=for-the-badge
+
+[forks-url]: https://github.com/DEENUU1/zakwas/network/members
+
+[stars-shield]: https://img.shields.io/github/stars/DEENUU1/zakwas.svg?style=for-the-badge
+
+[stars-url]: https://github.com/DEENUU1/zakwas/stargazers
+
+[issues-shield]: https://img.shields.io/github/issues/DEENUU1/zakwas.svg?style=for-the-badge
+
+[issues-url]: https://github.com/DEENUU1/zakwas/issues
+
+[license-shield]: https://img.shields.io/github/license/DEENUU1/zakwas.svg?style=for-the-badge
+
+[license-url]: https://github.com/DEENUU1/zakwas/blob/master/LICENSE.txt
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+
+[linkedin-url]: https://linkedin.com/in/kacper-wlodarczyk
+
+[basic]: https://github.com/DEENUU1/zakwas/blob/main/assets/v1_2/basic.gif?raw=true
+
+[full]: https://github.com/DEENUU1/zakwas/blob/main/assets/v1_2/full.gif?raw=true
+
+[search]: https://github.com/DEENUU1/zakwas/blob/main/assets/v1_2/search.gif?raw=true
