@@ -180,31 +180,30 @@ export default function Menu(){
 				<div className="flex justify-center space-x-4 mb-5 w-max mx-auto">
 					<button
 						onClick={() => setSelectedCategory("pizzaRossa")}
-						className={`btn ${selectedCategory === "pizzaRossa" ? "hover:border-red-600 border-solid border-3 border-red-700 border-transparent rounded-2xl p-2 font-bold" : ""}`}
-					>
+						className={`btn ${selectedCategory === "pizzaRossa" ? "border-red-700" : "border-transparent"} hover:border-red-600 border-solid border-3 rounded-2xl p-2 `}>
 						Pizza Rossa
 					</button>
 					<button
 						onClick={() => setSelectedCategory("pizzaBianca")}
-						className={`btn ${selectedCategory === "pizzaBianca" ? "hover:border-red-600 border-solid border-3 border-red-700 border-transparent rounded-2xl p-2 font-bold" : ""}`}
+						className={`btn ${selectedCategory === "pizzaBianca" ? "border-red-700" : "border-transparent"} hover:border-red-600 border-solid border-3 rounded-2xl p-2 `}
 					>
 						Pizza Bianca
 					</button>
 					<button
 						onClick={() => setSelectedCategory("otherDishes")}
-						className={`btn ${selectedCategory === "otherDishes" ? "hover:border-red-600 border-solid border-3 border-red-700 border-transparent rounded-2xl p-2 font-bold" : ""}`}
+						className={`btn ${selectedCategory === "otherDishes" ? "border-red-700" : "border-transparent"} hover:border-red-600 border-solid border-3 rounded-2xl p-2 `}
 					>
 						Inne Dania
 					</button>
 					<button
 						onClick={() => setSelectedCategory("coffeTea")}
-						className={`btn ${selectedCategory === "coffeTea" ? "hover:border-red-600 border-solid border-3 border-red-700 border-transparent rounded-2xl p-2 font-bold" : ""}`}
+						className={`btn ${selectedCategory === "coffeTea" ? "border-red-700" : "border-transparent"} hover:border-red-600 border-solid border-3 rounded-2xl p-2 `}
 					>
 						Kawa i Herbata
 					</button>
 					<button
 						onClick={() => setSelectedCategory("drinks")}
-						className={`btn ${selectedCategory === "drinks" ? "hover:border-red-600 border-solid border-3 border-red-700 border-transparent rounded-2xl p-2 font-bold" : ""}`}
+						className={`btn ${selectedCategory === "drinks" ? "border-red-700" : "border-transparent"} hover:border-red-600 border-solid border-3 rounded-2xl p-2 `}
 					>
 						Napoje
 					</button>
