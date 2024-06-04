@@ -1,11 +1,13 @@
 import {Image as NextImage} from "@nextui-org/react";
 import React from "react";
+import Image from "next/image";
 
 export default function MenuCard({name, ingredients, price}: {name: string, ingredients: string, price: number}) {
 	return (
 		<div
 			className="flex flex-col sm:flex-row items-center sm:items-start gap-4 p-4 rounded-2xl shadow-md">
 			<NextImage
+				as={Image}
 				isBlurred={true}
 				radius={"lg"}
 				loading={"lazy"}
