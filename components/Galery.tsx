@@ -27,7 +27,7 @@ export default function Galery(){
 	return (
 		<>
 			<h1 className={"text-center text-5xl mt-5 mb-5"}>Galeria smaków</h1>
-			<div id="galery" className="columns-1 md:columns-2 lg:columns-3 gap-4 space-y-4 p-8">
+			<div id="galery" className="columns-1 md:columns-3 lg:columns-3 gap-4 space-y-4 p-8">
 				{images.map((src, index) => (
 					<div key={index} className={"h-min w-full"}>
 						<NextImage radius={"lg"} isZoomed={true}  className="rounded-lg object-cover" src={src} alt={`Image ${index + 1}`}/>

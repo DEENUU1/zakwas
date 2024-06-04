@@ -73,33 +73,33 @@ export default function NavigationBar() {
 				</NavbarItem>
 			</NavbarContent>
 			<NavbarMenu>
-					<NavbarMenuItem>
-				    <Link
-				      className="w-full"
-				      href="#menu"
-				      size="lg"
-				    >
-				      Menu
-				    </Link>
-				  </NavbarMenuItem>
-					<NavbarMenuItem>
-				    <Link
-				      className="w-full"
-				      href="#testimonials"
-				      size="lg"
-				    >
-				      Opinie
-				    </Link>
-				  </NavbarMenuItem>
-					<NavbarMenuItem>
-				    <Link
-				      className="w-full"
-				      href="#galery"
-				      size="lg"
-				    >
-				      Galeria
-				    </Link>
-				  </NavbarMenuItem>
+				<NavbarMenuItem>
+					<Link
+						className="w-full"
+						href="#menu"
+						size="lg"
+					>
+						Menu
+					</Link>
+				</NavbarMenuItem>
+				<NavbarMenuItem>
+					<Link
+						className="w-full"
+						href="#testimonials"
+						size="lg"
+					>
+						Opinie
+					</Link>
+				</NavbarMenuItem>
+				<NavbarMenuItem>
+					<Link
+						className="w-full"
+						href="#galery"
+						size="lg"
+					>
+						Galeria
+					</Link>
+				</NavbarMenuItem>
 			</NavbarMenu>
 		</Navbar>
 	);
